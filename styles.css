@@ -1,5 +1,23 @@
+/* Variables */
+:root {
+    --clr-active: hsl(172, 67%, 45%);
+    --clr-light: hsl(185, 41%, 84%);
+}
+
+
 body {
     margin: 0;
     font-family: 'Space Mono', monospace;
     font-size: 24px;
+}
+
+/* Header */
+header h1 {
+    text-align: center;
+    margin-top: 0;
+    background-color: var(--clr-light);
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.7rem;
+    line-height: 1.25;
 }
