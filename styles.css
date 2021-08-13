@@ -30,7 +30,7 @@ header h1 {
     text-align: center;
     margin: 0;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.25rem;
     letter-spacing: 0.7rem;
     line-height: 1.25;
     color: var(--text-faded);
@@ -38,7 +38,6 @@ header h1 {
 
 /* Containers */
 .main-container {
-    height: calc(100vh - var(--header));
     width: 100%;
     background-color: var(--clr-white);
     border-top-left-radius: 7.5vw;
@@ -46,42 +45,47 @@ header h1 {
 }
 
 .tip-container {
-    height: 60%;
     width: 100%;
     border: 1px black solid;
     text-align: center;
 }
 
 .calculation-container {
-    height: 40%;
     width: 100%;
     border: 1px grey dashed;
 
 }
 
+.btn-container {
+    height: 50%;
+    border: 1px blue solid;
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    grid-template-rows: repeat(3, 50%);
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /* Sub Headers */
 .sub-header {
     text-align: left;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: var(--text-faded);
-    margin: 10% 0 2% 10%;
+    margin: 5% 0 2% 7.25%;
     text-transform: uppercase;
 }
 
 /* Bill */
-#pound {
-    position: fixed;
-    z-index: 2;
-    left: 15%;
-    margin-top: 0%;
-    color: var(--text-faded);
 
-}
 
 /* Inputs */
 .input {
     width: 80%;
-    height: 15%;
+    height: 12.5%;
     margin: 0 auto;
     background-color: var(--input);
     color: var(--text-dark);
@@ -112,6 +116,6 @@ textarea:focus {
     font-size: 1.6rem;
     font-weight: normal;
     margin-left: 5%;
-    color: var(--text-faded);
+    color: var(--clr-light);
 }
 
