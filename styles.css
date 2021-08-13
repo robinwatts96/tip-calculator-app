@@ -34,11 +34,38 @@ header h1 {
     color: var(--text-faded);
 }
 
-/* Container */
+/* Containers */
 .main-container {
     height: calc(100vh - var(--header));
     width: 100%;
     background-color: var(--clr-white);
     border-top-left-radius: 7.5vw;
     border-top-right-radius: 7.5vw;
+}
+
+.tip-container {
+    height: 60%;
+    width: 100%;
+    border: 1px black solid;
+    text-align: center;
+}
+.calculation-container {
+    height: 40%;
+    width: 100%;
+    border: 1px grey dashed;
+
+}
+
+/* Bill */
+#pound {
+    position: fixed;
+    z-index: 2;
+    left: 10%;
+}
+
+/* Inputs */
+.input {
+    width: 80%;
+    /* height:  */
+    margin: 0 auto;
 }
