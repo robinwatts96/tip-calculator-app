@@ -4,6 +4,8 @@
     --clr-light: hsl(185, 41%, 84%);
     --clr-white: hsl(0, 0%, 100%);
     --text-faded: hsl(186, 14%, 43%);
+    --text-dark:  hsl(183, 100%, 15%);
+    --input: hsl(189, 41%, 97%);
     --header: 20vh;
 }
 
@@ -49,6 +51,7 @@ header h1 {
     border: 1px black solid;
     text-align: center;
 }
+
 .calculation-container {
     height: 40%;
     width: 100%;
@@ -56,16 +59,50 @@ header h1 {
 
 }
 
+/* Sub Headers */
+.sub-header {
+    text-align: left;
+    font-size: 1rem;
+    color: var(--text-faded);
+    margin: 10% 0 2% 10%;
+    text-transform: uppercase;
+}
+
 /* Bill */
 #pound {
     position: fixed;
     z-index: 2;
-    left: 10%;
+    left: 15%;
+    margin-top: 0%;
+    color: var(--text-faded);
+
 }
 
 /* Inputs */
 .input {
     width: 80%;
-    /* height:  */
+    height: 15%;
     margin: 0 auto;
+    background-color: var(--input);
+    color: var(--text-dark);
+    border-radius: 3%;
+    border: none;
+    transition: background-color 100ms ease-in-out;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5rem;
+    letter-spacing: 0.24rem;
+    font-weight: bold;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input:focus,
+textarea:focus {
+    background-color: var(--clr-light);
+    outline: none;
+}
+
