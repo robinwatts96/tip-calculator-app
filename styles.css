@@ -2,7 +2,9 @@
 :root {
     --clr-active: hsl(172, 67%, 45%);
     --clr-light: hsl(185, 41%, 84%);
+    --clr-white: hsl(0, 0%, 100%);
     --text-faded: hsl(186, 14%, 43%);
+    --header: 20vh;
 }
 
 
@@ -10,12 +12,13 @@ body {
     margin: 0;
     font-family: 'Space Mono', monospace;
     font-size: 24px;
+    background-color: var(--clr-light);
 }
 
 /* Header */
 header {
     background-color: var(--clr-light);
-    height: 20vh;
+    height: var(--header);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,4 +32,13 @@ header h1 {
     letter-spacing: 0.7rem;
     line-height: 1.25;
     color: var(--text-faded);
+}
+
+/* Container */
+.main-container {
+    height: calc(100vh - var(--header));
+    width: 100%;
+    background-color: var(--clr-white);
+    border-top-left-radius: 7.5vw;
+    border-top-right-radius: 7.5vw;
 }
