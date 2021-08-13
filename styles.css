@@ -89,9 +89,10 @@ header h1 {
     border: none;
     transition: background-color 100ms ease-in-out;
     font-family: 'Space Mono', monospace;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     letter-spacing: 0.24rem;
     font-weight: bold;
+    padding-right: 5%;
 }
 
 input::-webkit-outer-spin-button,
@@ -104,5 +105,13 @@ input::-webkit-inner-spin-button {
 textarea:focus {
     background-color: var(--clr-light);
     outline: none;
+}
+
+.input::placeholder {
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin-left: 5%;
+    color: var(--text-faded);
 }
 
