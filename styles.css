@@ -82,8 +82,18 @@ header h1 {
 
 #num-of-people {
     margin-top: 22.5%;
-    background-image: url('images/icon-person.svg');
+    /* background-image: url('images/icon-person.svg');
     background-repeat: no-repeat;
+    background-position: 1vw 3vh;
+    z-index: 4; */
+}
+
+#person {
+    display: block;
+    position: relative;
+    left: 13%;
+    bottom: 4vh;
+    background-color: var(--clr-light)
 }
 
 /* Btn */
