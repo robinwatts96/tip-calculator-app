@@ -79,6 +79,10 @@ header h1 {
     text-transform: uppercase;
 }
 
+#bill {
+    padding-top: 10%;
+} 
+
 #num-of-people {
     margin-top: 22.5%;
 }
@@ -106,6 +110,8 @@ header h1 {
 
 #custom {
     background-color: var(--input);
+    width: 95%;
+    height: 95%;
 }
 
 #custom::placeholder {
@@ -116,6 +122,11 @@ header h1 {
     margin-right: 5%;
     color: var(--text-faded);
     opacity: 0.75;
+    text-transform: uppercase;
+}
+
+#custom:focus {
+ color: var(--text-dark);
 }
 
 
@@ -162,7 +173,6 @@ textarea:focus {
 
 /* Tip Calculation */
 
-
 .tip h2,
 .tip p {
     margin-bottom: 0;
@@ -184,6 +194,7 @@ textarea:focus {
 .tip p {
     font-size: 0.7rem;
     letter-spacing: 0.05rem;
+    color: var(--text-faded);
 }
 
 .tip h3 {
@@ -193,4 +204,19 @@ textarea:focus {
     top: -7vh;
     margin-top: 0;
     margin-bottom: 0;
+    color: var(--clr-active);
+}
+
+.tip button {
+    width: 80%;
+    height: 10vh;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    border-radius: 2vw;
+    border: none;
+    background-color: var(--clr-active);
+    color: var(--text-dark);
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
 }
