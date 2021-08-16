@@ -93,7 +93,7 @@ header h1 {
     position: relative;
     left: 13%;
     bottom: 4vh;
-    background-color: var(--clr-light)
+    opacity: 0.6;
 }
 
 /* Btn */
