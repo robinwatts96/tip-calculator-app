@@ -51,8 +51,9 @@ header h1 {
 }
 
 .calculation-container {
-    width: 100%;
-    border: 1px grey dashed;
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--text-dark);
 
 }
 
@@ -66,7 +67,6 @@ header h1 {
     justify-content: center;
     align-items: center;
     margin-bottom: 15%;
-    /* border: 1px blue solid; */
 }
 
 
@@ -160,3 +160,18 @@ textarea:focus {
     color: var(--clr-light);
 }
 
+
+/* Tip Calculation */
+.tip h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.tip p {
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+
+.tip h3 {
+    font-size: 2rem;
+}
