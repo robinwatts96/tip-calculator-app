@@ -46,7 +46,6 @@ header h1 {
 
 .tip-container {
     width: 100%;
-    border: 1px black solid;
     text-align: center;
 }
 
@@ -54,7 +53,7 @@ header h1 {
     width: 90%;
     margin: 0 auto;
     background-color: var(--text-dark);
-
+    border-radius: 7.5%;
 }
 
 .btn-container {
@@ -162,16 +161,36 @@ textarea:focus {
 
 
 /* Tip Calculation */
-.tip h2 {
-    font-size: 1.3rem;
+
+
+.tip h2,
+.tip p {
     margin-bottom: 0;
+    margin-left: 6%;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.tip h2 {
+    font-size: 1.1rem;
+    color: var(--clr-white);
+    letter-spacing: 0.1rem;
+}
+
+#tip-amount {
+    padding-top: 10%;
 }
 
 .tip p {
-    font-size: 0.8rem;
-    margin-top: 0;
+    font-size: 0.7rem;
+    letter-spacing: 0.05rem;
 }
 
 .tip h3 {
     font-size: 2rem;
+    position: relative;
+    left: 57.5%;
+    top: -7vh;
+    margin-top: 0;
+    margin-bottom: 0;
 }
