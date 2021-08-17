@@ -55,7 +55,7 @@ header h1 {
 
 .calculation-container {
     width: 90%;
-    margin: 0 auto;
+    margin: 5% auto 0 auto;
     background-color: var(--text-dark);
     border-radius: 7.5%;
 }
@@ -95,7 +95,7 @@ header h1 {
     display: block;
     position: relative;
     left: 13%;
-    bottom: 4vh;
+    bottom: 5vh;
     opacity: 0.6;
     box-sizing: border-box;
 }
