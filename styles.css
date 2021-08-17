@@ -6,7 +6,7 @@
     --text-faded: hsl(186, 14%, 43%);
     --text-dark:  hsl(183, 100%, 15%);
     --input: hsl(189, 41%, 97%);
-    --header: 20vh;
+    --header: 15vh;
 }
 
 body, html {
@@ -21,6 +21,7 @@ body {
     background-color: var(--clr-light);
 }
 
+
 /* Header */
 header {
     background-color: var(--clr-light);
@@ -33,12 +34,14 @@ header {
 header h1 {
     text-align: center;
     margin: 0;
+    padding-top: 10%;
     text-transform: uppercase;
-    font-size: 1.25rem;
+    font-size: 1.9rem;
     letter-spacing: 0.7rem;
     line-height: 1.25;
     color: var(--text-faded);
 }
+
 
 /* Containers */
 .main-container {
@@ -46,6 +49,7 @@ header h1 {
     background-color: var(--clr-white);
     border-top-left-radius: 7.5vw;
     border-top-right-radius: 7.5vw;
+    padding-bottom: 5%
 }
 
 .tip-container {
@@ -99,6 +103,7 @@ header h1 {
     opacity: 0.6;
     box-sizing: border-box;
 }
+
 
 /* Btn */
 .btn-tip {
