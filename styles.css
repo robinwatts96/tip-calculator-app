@@ -236,13 +236,18 @@ textarea:focus {
 
 /* Media Queries */
 @media only screen and (min-width: 767px) {
+    .input,
+    #custom,
+    #custom::placeholder {
+        font-size: 1.75rem;
+    }
+    
     .sub-header {
         font-size: 1.4rem;
     }
 
     .input {
         height: 10vh;
-        font-size: 1.75rem;
     }
 
     .input::placeholder {
@@ -252,18 +257,65 @@ textarea:focus {
     }
 
     #custom {
-        font-size: 1.75rem;
         padding-right: 5vw;
         
-    }
-    
-    #custom::placeholder {
-        font-size: 1.75rem;
-    }
+    } 
 
     #person {
         width: 3%;
         height: auto;
         bottom: 8vh;
+    }
+
+
+
+    .calculation-container {
+        width: 70%;
+
+    }
+
+    .tip h2,
+    .tip p {
+    margin-left: 10%;
+    }
+
+    .tip h2 {
+        font-size: 1.1rem;
+        color: var(--clr-white);
+        letter-spacing: 0.1rem;
+    }
+
+    #tip-amount {
+        padding-top: 10%;
+    }
+
+    .tip p {
+        font-size: 0.7rem;
+        letter-spacing: 0.05rem;
+        color: var(--text-faded);
+    }
+
+    .tip h3 {
+        font-size: 2rem;
+        position: relative;
+        left: 57.5%;
+        top: -7vh;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: var(--clr-active);
+    }
+
+    .tip button {
+        width: 80%;
+        height: 10vh;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        border-radius: 2vw;
+        border: none;
+        background-color: var(--clr-active);
+        color: var(--text-dark);
+        font-size: 1.3rem;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
     }
 }
