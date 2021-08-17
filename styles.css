@@ -259,6 +259,11 @@ textarea:focus {
     
     #custom::placeholder {
         font-size: 1.75rem;
- 
+    }
+
+    #person {
+        width: 3%;
+        height: auto;
+        bottom: 8vh;
     }
 }
