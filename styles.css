@@ -130,6 +130,7 @@ header h1 {
     letter-spacing: 0.1rem;
     font-weight: bold;
     margin-right: 5%;
+    padding-right: 3vw;
     color: var(--text-faded);
     opacity: 0.75;
     text-transform: uppercase;
@@ -137,6 +138,7 @@ header h1 {
 
 #custom:focus {
  color: var(--text-dark);
+ font-weight: bold;
 }
 
 
@@ -229,4 +231,34 @@ textarea:focus {
     font-size: 1.3rem;
     font-weight: bold;
     letter-spacing: 0.2rem;
+}
+
+
+/* Media Queries */
+@media only screen and (min-width: 767px) {
+    .sub-header {
+        font-size: 1.4rem;
+    }
+
+    .input {
+        height: 10vh;
+        font-size: 1.75rem;
+    }
+
+    .input::placeholder {
+        font-size: 2.5rem;
+        position: relative;
+        top: 12.5%;
+    }
+
+    #custom {
+        font-size: 1.75rem;
+        padding-right: 5vw;
+        
+    }
+    
+    #custom::placeholder {
+        font-size: 1.75rem;
+ 
+    }
 }
