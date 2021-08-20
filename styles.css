@@ -368,18 +368,17 @@ textarea:focus {
     #custom {
         width: 100%;
         padding: 0;
+        text-align: center;
     }
 
     #custom::placeholder {
-        text-align: right;
-        font-size: 1.3rem;
-        letter-spacing: 0.1rem;
-        font-weight: bold;
-        margin-right: 5%;
-        padding-right: 3vw;
-        color: var(--text-faded);
-        opacity: 0.75;
-        text-transform: uppercase;
+        font-size: 0.75rem;
+       position: relative; 
+       right: 15%; 
+       top: -15%; 
+       padding: 0;  
+       margin: 0; 
+
     }
 
     .input {
