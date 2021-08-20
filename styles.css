@@ -328,16 +328,16 @@ textarea:focus {
         margin: 0 auto;
         padding: 0;
         display: flex;
-        justify-content: space-evenly;
+        /* justify-content: space-around; */
         align-items: center;
     }
 
     .tip-container,
     .calculation-container {
         width: 40%;
-        height: 90%;
+        height: 80%;
         padding: 0;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .calculation-container {
@@ -345,14 +345,14 @@ textarea:focus {
     }
 
     
-.btn-container {
-    height: 20%;
-    grid-template-columns: repeat(3, 25%);
-    grid-template-rows: repeat(2, 45%);
-    grid-column-gap: 5%;
-    grid-row-gap: 20%;
-    margin-bottom: 0;
-}
+    .btn-container {
+        height: 20%;
+        grid-template-columns: repeat(3, 25%);
+        grid-template-rows: repeat(2, 45%);
+        grid-column-gap: 5%;
+        grid-row-gap: 20%;
+        margin-bottom: 0;
+    }
 
     #bill {
         margin-top: 0;
@@ -363,5 +363,30 @@ textarea:focus {
         height: 100%;
         width: 100%;
         border-radius: 5%;
+    }
+
+    #custom {
+        width: 100%;
+        padding: 0;
+    }
+
+    #custom::placeholder {
+        text-align: right;
+        font-size: 1.3rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        margin-right: 5%;
+        padding-right: 3vw;
+        color: var(--text-faded);
+        opacity: 0.75;
+        text-transform: uppercase;
+    }
+
+    .input {
+        height: 10%;
+    }
+
+    #num-of-people {
+        margin-top: 15%;
     }
 }
