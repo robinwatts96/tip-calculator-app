@@ -344,7 +344,24 @@ textarea:focus {
         
     }
 
+    
+.btn-container {
+    height: 20%;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: repeat(2, 45%);
+    grid-column-gap: 5%;
+    grid-row-gap: 20%;
+    margin-bottom: 0;
+}
+
     #bill {
         margin-top: 0;
+        padding: 0;
+    }
+
+    .btn-tip {
+        height: 100%;
+        width: 100%;
+        border-radius: 5%;
     }
 }
