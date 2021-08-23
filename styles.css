@@ -420,3 +420,21 @@ textarea:focus {
  margin-top: 5vh;
 }
 }
+
+
+@media only screen and (min-width: 1440px) {
+
+#custom::placeholder {
+    font-size: 1.15rem;
+    margin-right: 2%;
+    padding-right: -1vw;
+}
+
+#person {
+    width: 5%;
+    bottom: 5vh;
+}
+
+
+
+}
