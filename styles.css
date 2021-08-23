@@ -311,6 +311,8 @@ textarea:focus {
     }
 }
 
+
+
 @media only screen and (min-width: 1024px) {
     header {
         height: 20vh;
@@ -391,10 +393,30 @@ textarea:focus {
 
     #person {
         width: 6%;
-        height: auto;
-        left: 13%;
         bottom: 5vh;
-        opacity: 0.6;
-        box-sizing: border-box;
+
     }
+
+    /* Calculation */
+
+
+
+#tip-amount {
+    padding-top: 15%;
+
+}
+
+.tip h3 {
+    font-size: 2rem;
+    position: relative;
+    left: 57.5%;
+    top: -7vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--clr-active);
+}
+
+.tip button {
+ margin-top: 5vh;
+}
 }
