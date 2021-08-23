@@ -436,6 +436,14 @@ textarea:focus {
 }
 }
 
+
+
 @media only screen and (min-width: 1200px) {
+
     
+    .tip button {
+        height: 10vh;
+        margin-top: 0;
+        margin-bottom: 10vh;
+    }
 }
