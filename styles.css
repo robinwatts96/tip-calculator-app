@@ -388,12 +388,12 @@ textarea:focus {
     }
 
     #num-of-people {
-        margin-top: 15%;
+        margin-top: 10%;
     }
 
     #person {
-        width: 6%;
-        bottom: 5vh;
+        width: 5%;
+        bottom: 5.75vh;
 
     }
 
@@ -422,6 +422,16 @@ textarea:focus {
 }
 
 
+@media only screen and (min-width: 1200px) {
+
+    
+    .tip button {
+        height: 10vh;
+        margin-top: 0;
+        margin-bottom: 10vh;
+    }
+}
+
 @media only screen and (min-width: 1440px) {
 
 #custom::placeholder {
@@ -438,12 +448,3 @@ textarea:focus {
 
 
 
-@media only screen and (min-width: 1200px) {
-
-    
-    .tip button {
-        height: 10vh;
-        margin-top: 0;
-        margin-bottom: 10vh;
-    }
-}
