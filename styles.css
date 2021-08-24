@@ -268,8 +268,6 @@ textarea:focus {
         bottom: 8vh;
     }
 
-
-
     .calculation-container {
         width: 70%;
 
@@ -311,8 +309,6 @@ textarea:focus {
     }
 }
 
-
-
 @media only screen and (min-width: 1024px) {
     header {
         height: 20vh;
@@ -341,11 +337,6 @@ textarea:focus {
         padding: 0;
         margin: 0 auto;
     }
-
-    .calculation-container {
-        
-    }
-
     
     .btn-container {
         height: 20%;
@@ -398,29 +389,25 @@ textarea:focus {
     }
 
     /* Calculation */
+    #tip-amount {
+        padding-top: 15%;
 
+    }
 
+    .tip h3 {
+        font-size: 2rem;
+        position: relative;
+        left: 57.5%;
+        top: -7vh;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: var(--clr-active);
+    }
 
-#tip-amount {
-    padding-top: 15%;
-
+    .tip button {
+    margin-top: 5vh;
+    }
 }
-
-.tip h3 {
-    font-size: 2rem;
-    position: relative;
-    left: 57.5%;
-    top: -7vh;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: var(--clr-active);
-}
-
-.tip button {
- margin-top: 5vh;
-}
-}
-
 
 @media only screen and (min-width: 1200px) {
 
