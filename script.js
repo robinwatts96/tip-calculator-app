@@ -12,3 +12,8 @@
 // if num of people =<0 add html 'can't be zero/add orange border to num of people input
 
 // reset button to return all values to zero
+
+
+// Variables
+let bill = document.getElementById('bill-input').value;
+console.log(bill);
