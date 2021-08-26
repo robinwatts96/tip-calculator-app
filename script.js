@@ -1,5 +1,6 @@
 // get bill
 // get chosen tip
+// get custom tip
 // get number of people
 // add chosen peecentage to bill
 // get total, and divide by num of people
@@ -17,3 +18,15 @@
 // Variables
 let bill = document.getElementById('bill-input').value;
 console.log('bill: ' + bill);
+
+const tip5 = document.getElementById('tip5');
+const tip10 = document.getElementById('tip10');
+const tip15 = document.getElementById('tip15');
+const tip20 = document.getElementById('tip20');
+const tip25 = document.getElementById('tip25');
+const tipCustom = document.getElementById('custom');
+
+const tip5 = function () {
+    document.getElementById('tip5');
+    document.addEventListener('onClick')
+}
