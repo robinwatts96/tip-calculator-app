@@ -16,5 +16,4 @@
 
 // Variables
 let bill = document.getElementById('bill-input').value;
-console.log(bill);
-t
+console.log('bill: ' + bill);
