@@ -30,3 +30,7 @@ const tip5 = function () {
     document.getElementById('tip5');
     document.addEventListener('onClick')
 }
+
+function tip (percentage, total) {
+    
+}
