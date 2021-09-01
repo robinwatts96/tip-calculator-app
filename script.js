@@ -2,7 +2,7 @@
 // get chosen tip
 // get custom tip
 // get number of people
-// add chosen peecentage to bill
+// add chosen percentage to bill
 // get total, and divide by num of people
 // add this to total p personal
 
@@ -28,6 +28,10 @@ const tip20 = document.getElementById('tip20').value;
 const tip25 = document.getElementById('tip25').value;
 const tipCustom = document.getElementById('custom').value;
 
+const tip = document.getElementsByClassName('btn-tip').value;
+
+const nop = document.getElementById('numOfPeople').value;
+
 console.log(tip5.value);
 console.log(tipCustom.value);
 
@@ -36,10 +40,8 @@ console.log(tipCustom.value);
 //     document.addEventListener('onClick')
 // }
 
-function tip (percentage, bill) {
-    
-}
-
 function calculate () {
     tip
+    bill 
 }
+

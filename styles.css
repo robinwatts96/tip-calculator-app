@@ -118,6 +118,10 @@ header h1 {
     letter-spacing: 0.24rem;
 }
 
+.btn-tip:active {
+    background-color: orange;
+}
+
 #custom {
     background-color: var(--input);
     width: 95%;
