@@ -19,18 +19,27 @@
 let bill = document.getElementById('bill-input').value;
 console.log('bill: ' + bill);
 
-const tip5 = document.getElementById('tip5');
-const tip10 = document.getElementById('tip10');
-const tip15 = document.getElementById('tip15');
-const tip20 = document.getElementById('tip20');
-const tip25 = document.getElementById('tip25');
-const tipCustom = document.getElementById('custom');
 
-const tip5 = function () {
-    document.getElementById('tip5');
-    document.addEventListener('onClick')
+
+const tip5 = document.getElementById('tip5').value;
+const tip10 = document.getElementById('tip10').value;
+const tip15 = document.getElementById('tip15').value;
+const tip20 = document.getElementById('tip20').value;
+const tip25 = document.getElementById('tip25').value;
+const tipCustom = document.getElementById('custom').value;
+
+console.log(tip5.value);
+console.log(tipCustom.value);
+
+// const tip5 = function () {
+//     document.getElementById('tip5');
+//     document.addEventListener('onClick')
+// }
+
+function tip (percentage, bill) {
+    
 }
 
-function tip (percentage, total) {
-    
+function calculate () {
+    tip
 }
