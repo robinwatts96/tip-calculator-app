@@ -56,9 +56,12 @@
 $('.btn-tip').on('click', event => {
     let tip = $(event.currentTarget).val();
     console.log(tip);
-    console.log(tip * $('#bill-input').val())
+    let bill = $('#bill-input');
+    if (bill.val() == 0) {
+        alert('no');
+    }
     
 });
 
 
-YESSSSSSSSSSSSSSSSSSSSSSS
+
