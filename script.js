@@ -21,8 +21,8 @@
 
 
 
-const tip5 = document.getElementById('tip5').value;
-console.log(tip5);
+// const tip5 = document.getElementById('tip5').value;
+// console.log(tip5);
 // const tip10 = document.getElementById('tip10').value;
 // const tip15 = document.getElementById('tip15').value;
 // const tip20 = document.getElementById('tip20').value;
@@ -54,9 +54,11 @@ console.log(tip5);
 
 
 $('.btn-tip').on('click', event => {
-    // console.log($(event.currentTarget).value);
-    $(event.currentTarget).hide();
+    let tip = $(event.currentTarget).val();
+    console.log(tip);
+    console.log(tip * $('#bill-input').val())
+    
 });
 
 
-
+YESSSSSSSSSSSSSSSSSSSSSSS
