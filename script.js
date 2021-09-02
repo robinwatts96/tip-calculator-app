@@ -21,7 +21,8 @@
 
 
 
-// const tip5 = document.getElementById('tip5').value;
+const tip5 = document.getElementById('tip5').value;
+console.log(tip5);
 // const tip10 = document.getElementById('tip10').value;
 // const tip15 = document.getElementById('tip15').value;
 // const tip20 = document.getElementById('tip20').value;
@@ -46,10 +47,16 @@
 // });
 
 
-$(document).ready(function() {
-    // This code only runs after the DOM is loaded.
-    alert('DOM fully loaded!');
-  });
+// $(document).ready(function() {
+//     // This code only runs after the DOM is loaded.
+//     alert('DOM fully loaded!');
+//   });
+
+
+$('.btn-tip').on('click', event => {
+    // console.log($(event.currentTarget).value);
+    $(event.currentTarget).hide();
+});
 
 
 
