@@ -28,7 +28,7 @@ const tip20 = document.getElementById('tip20').value;
 const tip25 = document.getElementById('tip25').value;
 const tipCustom = document.getElementById('custom').value;
 
-const tip = document.getElementsByClassName('btn-tip').value;
+let tip = document.getElementsByClassName('btn-tip').value;
 
 const nop = document.getElementById('numOfPeople').value;
 
@@ -40,8 +40,9 @@ console.log(tipCustom.value);
 //     document.addEventListener('onClick')
 // }
 
-function calculate () {
-    tip
-    bill 
-}
+document.querySelector('.btn-tip').addEventListener('click', function calculate () {
+    document.querySelector('body').style.background = "red";
+});
+
+
 
