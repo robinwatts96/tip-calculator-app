@@ -15,6 +15,33 @@
 // reset button to return all values to zero
 
 
+
+
+// Click tip btn
+$('.btn-tip').on('click', event => {
+    let tip = $(event.currentTarget).val();
+    console.log('You selected: ' + tip);
+    let bill = $('#bill-input');
+    let nop = $('#numOfPeople');
+   
+    if (bill.val() == 0 && nop.val() == 0) {
+        // Add orange box class around both
+        alert('add bill/nop');
+    } else if (nop.val() == 0) {
+        // Add orange box class around nop
+        alert('add nop');
+    } else if (bill.val() == 0) {
+        // Add orange box class around bill
+        alert('add bill');
+    }
+    
+});
+
+
+
+
+
+
 // // Variables
 // let bill = document.getElementById('bill-input').value;
 // console.log('bill: ' + bill);
@@ -53,15 +80,7 @@
 //   });
 
 
-$('.btn-tip').on('click', event => {
-    let tip = $(event.currentTarget).val();
-    console.log(tip);
-    let bill = $('#bill-input');
-    if (bill.val() == 0) {
-        alert('no');
-    }
-    
-});
+
 
 
 
