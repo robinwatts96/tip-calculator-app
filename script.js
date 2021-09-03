@@ -39,8 +39,8 @@ $('.btn-tip').on('click', event => {
 
     } else {
         // Calculation
-        // Add tip to total
         function calculate () {
+            S// Add tip to total
             let total = Math.floor(bill.val() * (1 + (tip / 100)));
             console.log('before / nop: ' + total);
 
@@ -55,6 +55,8 @@ $('.btn-tip').on('click', event => {
         };
 
         calculate ();
+
+        
     }   
 });
 
@@ -63,9 +65,6 @@ $('.btn-tip').on('click', event => {
 // custom tip
 // reset button
 
-function calculate() {
-    
-}
 
 
 
