@@ -40,17 +40,21 @@ $('.btn-tip').on('click', event => {
     } else {
         // Calculation
         // Add tip to total
-        let total = Math.floor(bill.val() * (1 + (tip / 100)));
-        console.log('before / nop: ' + total);
+        function calculate () {
+            let total = Math.floor(bill.val() * (1 + (tip / 100)));
+            console.log('before / nop: ' + total);
 
-        // Divide total by nop for total PP
-        let totalPP = total / nop.val();
-        console.log('Total PP: ' + totalPP);
+            // Divide total by nop for total PP
+            let totalPP = total / nop.val();
+            console.log('Total PP: ' + totalPP);
 
 
-        // Work out tip pp
-        let totalTipPP = (bill.val() * (tip / 100)) / nop.val();
-        console.log('Total tip PP: ' + totalTipPP);
+            // Work out tip pp
+            let totalTipPP = (bill.val() * (tip / 100)) / nop.val();
+            console.log('Total tip PP: ' + totalTipPP);
+        };
+
+        calculate ();
     }   
 });
 
@@ -59,47 +63,15 @@ $('.btn-tip').on('click', event => {
 // custom tip
 // reset button
 
+function calculate() {
+    
+}
 
 
 
 
 
-// // Variables
-// let bill = document.getElementById('bill-input').value;
-// console.log('bill: ' + bill);
 
-
-
-// const tip5 = document.getElementById('tip5').value;
-// console.log(tip5);
-// const tip10 = document.getElementById('tip10').value;
-// const tip15 = document.getElementById('tip15').value;
-// const tip20 = document.getElementById('tip20').value;
-// const tip25 = document.getElementById('tip25').value;
-// const tipCustom = document.getElementById('custom').value;
-
-// // let tip = document.getElementsByClassName('btn-tip').value;
-
-// const nop = document.getElementById('numOfPeople').value;
-
-// // console.log(tip5.value);
-// // console.log(tipCustom.value);
-
-// // const tip5 = function () {
-// //     document.getElementById('tip5');
-// //     document.addEventListener('onClick')
-// // }
-
-// document.querySelector('.btn-tip').currentTarget.addEventListener('click', function calculate () {
-//     let tipValue = document.querySelector('.btn-tip').currentTarget.value;
-//     console.log(tipValue);
-// });
-
-
-// $(document).ready(function() {
-//     // This code only runs after the DOM is loaded.
-//     alert('DOM fully loaded!');
-//   });
 
 
 
