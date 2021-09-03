@@ -20,7 +20,7 @@
 // Click tip btn
 $('.btn-tip').on('click', event => {
     let tip = $(event.currentTarget).val();
-    console.log('You selected: ' + tip);
+    // console.log('You selected: ' + tip);
     let bill = $('#bill-input');
     let nop = $('#numOfPeople');
    
@@ -33,6 +33,15 @@ $('.btn-tip').on('click', event => {
     } else if (bill.val() == 0) {
         // Add orange box class around bill
         alert('add bill');
+    } else {
+        // Calculation
+        // Add tip to total
+        let total = Math.floor(bill.val() * (1 + (tip / 100)));
+        console.log('before / nop: ' + total);
+
+        // Divide total by nop
+        let totalPP = total / nop.val();
+        console.log('Total PP: ' + totalPP);
     }
     
 });
