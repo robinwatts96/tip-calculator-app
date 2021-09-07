@@ -59,7 +59,7 @@ $('.btn-tip').on('click', event => {
         };   
         
         calculate();
-    }};
+}});
 
 
 // custom tip

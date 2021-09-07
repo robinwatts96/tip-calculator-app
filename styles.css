@@ -122,30 +122,6 @@ header h1 {
     background-color: orange;
 }
 
-#custom {
-    background-color: var(--input);
-    width: 95%;
-    height: 95%;
-}
-
-#custom::placeholder {
-    text-align: right;
-    font-size: 1.3rem;
-    letter-spacing: 0.1rem;
-    font-weight: bold;
-    margin-right: 5%;
-    padding-right: 3vw;
-    color: var(--text-faded);
-    opacity: 0.75;
-    text-transform: uppercase;
-}
-
-#custom:focus {
- color: var(--text-dark);
- font-weight: bold;
-}
-
-
 /* Inputs */
 input {
     background-color: var(--input);
@@ -362,22 +338,6 @@ textarea:focus {
         border-radius: 5%;
     }
 
-    #custom {
-        width: 100%;
-        padding: 0;
-        text-align: center;
-    }
-
-    #custom::placeholder {
-        font-size: 0.75rem;
-       position: relative; 
-       right: 15%; 
-       top: -15%; 
-       padding: 0;  
-       margin: 0; 
-
-    }
-
     .input {
         height: 10%;
     }
@@ -424,12 +384,6 @@ textarea:focus {
 }
 
 @media only screen and (min-width: 1440px) {
-
-#custom::placeholder {
-    font-size: 1.15rem;
-    margin-right: 2%;
-    padding-right: -1vw;
-}
 
 #person {
     width: 4.5%;
