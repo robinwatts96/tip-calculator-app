@@ -40,7 +40,7 @@ $('.btn-tip').on('click', event => {
     } else {
         // Calculation
         function calculate () {
-            S// Add tip to total
+            // Add tip to total
             let total = Math.floor(bill.val() * (1 + (tip / 100)));
             console.log('before / nop: ' + total);
 
@@ -52,10 +52,13 @@ $('.btn-tip').on('click', event => {
             // Work out tip pp
             let totalTipPP = (bill.val() * (tip / 100)) / nop.val();
             console.log('Total tip PP: ' + totalTipPP);
+
+            // inner html
+            $('#tip-total').html('£' + totalPP);
+            $('#total').html('£' + totalTipPP);
         };
 
-        calculate ();
-
+        calculate();
         
     }   
 });
