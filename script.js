@@ -62,8 +62,11 @@ $('.btn-tip').on('click', event => {
 }});
 
 
-// custom tip
+
 // reset button
+$('#reset').on('click', function reset () {
+    location.reload();
+});
 
 
 
