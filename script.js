@@ -37,7 +37,7 @@ $('.btn-tip').on('click', event => {
         // Add orange box class around bill
         alert('add bill');
 
-    } else {
+    }   else {
         // Calculation
         function calculate () {
             // Add tip to total
@@ -58,13 +58,24 @@ $('.btn-tip').on('click', event => {
             $('#total').html('£' + totalTipPP);
         };
 
-        calculate();
         
-    }   
+            let custom = $('#custom').on('click', event => {
+                let customTip = $(event.currentTarget).val();
+                console.log(customTip);   
+            }    
+       
+
+            // $('.btn-tip').on('click', event => {
+            //     let tip = $(event.currentTarget).val();
+
+            // )}
+        
+        
+        
+        calculate();
 });
 
 
-// inner html
 // custom tip
 // reset button
 
