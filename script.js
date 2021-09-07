@@ -56,24 +56,10 @@ $('.btn-tip').on('click', event => {
             // inner html
             $('#tip-total').html('£' + totalPP);
             $('#total').html('£' + totalTipPP);
-        };
-
-        
-            let custom = $('#custom').on('click', event => {
-                let customTip = $(event.currentTarget).val();
-                console.log(customTip);   
-            }    
-       
-
-            // $('.btn-tip').on('click', event => {
-            //     let tip = $(event.currentTarget).val();
-
-            // )}
-        
-        
+        };   
         
         calculate();
-});
+    }};
 
 
 // custom tip
