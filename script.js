@@ -52,8 +52,6 @@ $('#reset').on('click', function reset () {
 });
 
 // change alerts to orange border and <p> above it
-// thing with the 0 in inputs
-// round decimals to 2 places
 
 
 
