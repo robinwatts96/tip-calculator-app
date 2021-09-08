@@ -68,7 +68,6 @@ $('#reset').on('click', function reset () {
     location.reload();
 });
 
-// change alerts to orange border and <p> above it
 
 
 
