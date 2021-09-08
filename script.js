@@ -8,15 +8,32 @@ $('.btn-tip').on('click', event => {
    
     if (bill.val() == 0 && nop.val() == 0) {
         // Add orange box class around both
-        alert('add bill/nop');
+        bill.addClass('orange');
+        nop.addClass('orange');
+
+        setTimeout(function removeClass () {
+            bill.removeClass('orange');
+            nop.removeClass('orange');
+        }, 3000
+        );
 
     } else if (nop.val() == 0) {
         // Add orange box class around nop
-        alert('add nop');
+        nop.addClass('orange');
+
+        setTimeout(function removeClass () {
+            nop.removeClass('orange');
+        }, 3000
+        );
 
     } else if (bill.val() == 0) {
         // Add orange box class around bill
-        alert('add bill');
+        bill.addClass('orange');
+
+        setTimeout(function removeClass () {
+            bill.removeClass('orange');
+        }, 3000
+        );
 
     }   else {
         // Calculation

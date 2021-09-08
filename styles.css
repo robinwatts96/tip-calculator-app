@@ -162,6 +162,10 @@ textarea:focus {
     color: var(--clr-light);
 }
 
+.orange {
+    border: 2px orange solid;
+}
+
 
 /* Tip Calculation */
 
