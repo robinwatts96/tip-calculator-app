@@ -27,11 +27,13 @@ $('.btn-tip').on('click', event => {
 
             // Divide total by nop for total PP
             let totalPP = total / nop.val();
+            totalPP = totalPP.toFixed(2);
             console.log('Total PP: ' + totalPP);
 
 
             // Work out tip pp
             let totalTipPP = (bill.val() * (tip / 100)) / nop.val();
+            totalTipPP = totalTipPP.toFixed(2);
             console.log('Total tip PP: ' + totalTipPP);
 
             // inner html
@@ -49,7 +51,9 @@ $('#reset').on('click', function reset () {
     location.reload();
 });
 
-
+// change alerts to orange border and <p> above it
+// thing with the 0 in inputs
+// round decimals to 2 places
 
 
 
