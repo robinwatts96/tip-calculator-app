@@ -1,4 +1,4 @@
-/* Variables */
+/*  Variables  */
 :root {
     --clr-active: hsl(172, 67%, 45%);
     --clr-light: hsl(185, 41%, 84%);
@@ -22,7 +22,7 @@ body {
 }
 
 
-/* Header */
+/*  Header  */
 header {
     background-color: var(--clr-light);
     height: var(--header);
@@ -43,7 +43,7 @@ header h1 {
 }
 
 
-/* Containers */
+/*  Containers  */
 .main-container {
     width: 100vw;
     background-color: var(--clr-white);
@@ -78,7 +78,7 @@ header h1 {
 
 
 
-/* Sub Headers */
+/*  Sub Headers  */
 .sub-header {
     text-align: left;
     font-size: 0.9rem;
@@ -105,7 +105,7 @@ header h1 {
 }
 
 
-/* Btn */
+/*  Btn  */
 .btn-tip {
     height: 100%;
     width: 100%;
