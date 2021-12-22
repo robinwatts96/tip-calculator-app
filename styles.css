@@ -380,6 +380,13 @@ textarea:focus {
 
 @media only screen and (min-width: 1200px) {
 
+    #num-of-people {
+        margin-top: 5%;
+    }
+
+    .sub-header {
+        margin-top: 0%;
+    }
     
     .tip button {
         height: 10vh;
