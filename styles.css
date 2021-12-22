@@ -55,6 +55,7 @@ header h1 {
 .tip-container {
     width: 100%;
     text-align: center;
+    margin-bottom: 10vh;
 }
 
 .calculation-container {
@@ -92,14 +93,14 @@ header h1 {
 } 
 
 #num-of-people {
-    margin-top: 22.5%;
+    margin-top: 10%;
 }
 
 #person {
     display: block;
     position: relative;
     left: 13%;
-    bottom: 5vh;
+    bottom: 3vh;
     opacity: 0.6;
     box-sizing: border-box;
 }
@@ -249,7 +250,7 @@ textarea:focus {
     #person {
         width: 3%;
         height: auto;
-        bottom: 8vh;
+        bottom: 7vh;
     }
 
     .calculation-container {
