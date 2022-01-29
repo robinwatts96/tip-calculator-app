@@ -397,10 +397,10 @@ textarea:focus {
 
 @media only screen and (min-width: 1440px) {
 
-#person {
-    width: 4.5%;
-    bottom: 5vh;
-}
+    #person {
+        width: 4.5%;
+        bottom: 5vh;
+    }
 }
 
 

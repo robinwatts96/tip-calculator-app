@@ -5,12 +5,13 @@ $('.btn-tip').on('click', event => {
     let bill = $('#bill-input');
     let nop = $('#numOfPeople');
 
-   
+    //If user does not input correctly    
     if (bill.val() == 0 && nop.val() == 0) {
         // Add orange box class around both
         bill.addClass('orange');
         nop.addClass('orange');
 
+        // remove orange class after set time
         setTimeout(function removeClass () {
             bill.removeClass('orange');
             nop.removeClass('orange');
@@ -21,6 +22,7 @@ $('.btn-tip').on('click', event => {
         // Add orange box class around nop
         nop.addClass('orange');
 
+        // remove orange class after set time
         setTimeout(function removeClass () {
             nop.removeClass('orange');
         }, 3000
@@ -30,13 +32,14 @@ $('.btn-tip').on('click', event => {
         // Add orange box class around bill
         bill.addClass('orange');
 
+        // remove orange class after set time
         setTimeout(function removeClass () {
             bill.removeClass('orange');
         }, 3000
         );
 
-    }   else {
-        // Calculation
+    }  else {
+        // If inputs are correct, run the calculation
         function calculate () {
             // Add tip to total
             let total = Math.floor(bill.val() * (1 + (tip / 100)));
@@ -63,7 +66,7 @@ $('.btn-tip').on('click', event => {
 
 
 
-// reset button
+// reset button to start again
 $('#reset').on('click', function reset () {
     location.reload();
 });
